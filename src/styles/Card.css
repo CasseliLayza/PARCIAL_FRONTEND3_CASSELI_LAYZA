@@ -1,0 +1,22 @@
+.mensajeConfirmacion {
+  color: greenyellow;
+}
+
+.datos-ingresados {
+  margin: 100px;
+  color: yellow;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+  border: 2px solid yellow;
+  border-radius: 15px;
+  background-color: rgb(60, 66, 232);
+  box-shadow: 7px 7px 7px yellow;
+}
+
+.datos-ingresados:hover{
+    box-shadow: 7px 7px 7px rgb(0, 255, 255);
+    color: rgb(36, 112, 56);
+    border: 2px solid rgb(0, 242, 255);
+    background-color: rgb(232, 132, 60);
+    
+}

@@ -1,18 +1,15 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import "./App.css";
-import Card from "./components/Card";
-import Form from "./components/Form";
+
+import Form from "./components/Form.jsx";
+import Header from "./components/Header.jsx";
+import { Logos } from "./components/Logos.jsx";
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>Carga de estudiantes</h1>
+      <Logos />
+      <Header />
       <Form />
-      <Card message="Hola soy una trajeta" />
     </>
   );
 }

@@ -1,0 +1,14 @@
+.container-header{
+    /* width:80%; */
+    background-color: aquamarine;
+    color: rgb(1, 22, 19);
+    text-align: center;
+    font-family:system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: x-large;
+    font:bolder;
+    margin-bottom: 150px;
+    padding: 20px;
+    border: 2px solid rgb(71, 116, 2);
+    border-radius: 20px;
+    text-shadow: 10px 10px 10px rgb(0, 11, 11);
+}
